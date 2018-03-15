@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8802" started-at="2018-03-15T18:45:04Z" finished-at="2018-03-15T18:45:13Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="8802" started-at="2018-03-15T18:45:04Z" finished-at="2018-03-15T18:45:13Z">
+      <class name="Test1">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Test1@57e1b0c]" name="setup" is-config="true" duration-ms="5910" started-at="2018-03-15T18:45:04Z" finished-at="2018-03-15T18:45:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="search()[pri:1, instance:Test1@57e1b0c]" name="search" duration-ms="1628" started-at="2018-03-15T18:45:10Z" finished-at="2018-03-15T18:45:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="search1()[pri:2, instance:Test1@57e1b0c]" name="search1" duration-ms="590" started-at="2018-03-15T18:45:12Z" finished-at="2018-03-15T18:45:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search1 -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Test1@57e1b0c]" name="close" is-config="true" duration-ms="647" started-at="2018-03-15T18:45:13Z" finished-at="2018-03-15T18:45:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Test1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
