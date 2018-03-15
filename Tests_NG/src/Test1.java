@@ -25,7 +25,7 @@ public class Test1{
         this.driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get(SEARCH_PAGE);
-        System.out.println("passei aqui");
+        System.out.println("passei aqui2");
 	}
 		
 	@Test (priority=1)
