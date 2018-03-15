@@ -35,7 +35,20 @@ public class Test1{
 	          } catch (Exception e) {
 	          e.printStackTrace();
 	         }	
-         Thread.sleep(500000);
+         Thread.sleep(500);
+
+	}
+	
+	@Test (priority=2)
+	//Delete search done before
+	public void search1 () throws InterruptedException {	                      		 
+        try {
+	          new WebDriverWait(driver,15).until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='lst-ib']"))).clear();
+	        } catch (Exception e) {
+	          e.printStackTrace();
+	         }	
+        
+        Thread.sleep(500);
 
 	}
 	
